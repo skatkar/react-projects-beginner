@@ -1,4 +1,4 @@
-# React projects fro beginners
+# React projects for beginners
 
 This project has the solutions to all the questions listed here [freeCodeCamp](https://www.freecodecamp.org/news/react-projects-for-beginners-easy-ideas-with-code/).
 
