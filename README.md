@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React projects fro beginners
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has the solutions to all the questions listed here [freeCodeCamp](https://www.freecodecamp.org/news/react-projects-for-beginners-easy-ideas-with-code/).
 
 ## Available Scripts
 
