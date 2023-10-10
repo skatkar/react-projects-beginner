@@ -9,6 +9,7 @@
     align-items: center;
     margin: auto;
     width: 40%;
+    box-shadow: 10px 5px 5px rgb(142, 141, 141);
 }
 
 .container h3 {
