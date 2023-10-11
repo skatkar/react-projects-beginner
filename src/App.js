@@ -1,3 +1,4 @@
+import Github from "./components/Github/Github";
 import Accordian from "./components/Accordian/Accordian";
 import Carousal from "./components/Carousal/Carousal";
 import Quotes from "./components/Quote/Quotes";
@@ -24,8 +25,15 @@ function App() {
 }
 */
 
+// Fourth project
+/*
 function App() {
   return <Shopping />;
+}
+*/
+
+function App() {
+  return <Github />;
 }
 
 export default App;

@@ -33,7 +33,11 @@ const Carousal = () => {
           ⬅
         </div>
         <div class={classes.slide}>
-          <img src={images[imageIndex]} alt="images" />
+          <img
+            className={classes["carousal-images"]}
+            src={images[imageIndex]}
+            alt="images"
+          />
         </div>
         <div class={classes["right-arrow"]} onClick={nextButtonHandler}>
           ⮕
