@@ -8,7 +8,7 @@ const Menu = (props) => {
     >
       {videoNames.map((video, i) => (
         <label class="radio-inline">
-          <input key={i} type="radio" name={video} value={video} />
+          <input key={i} type="radio" name="src" value={video} />
           {video}
         </label>
       ))}
