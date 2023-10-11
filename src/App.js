@@ -3,6 +3,7 @@ import Accordian from "./components/Accordian/Accordian";
 import Carousal from "./components/Carousal/Carousal";
 import Quotes from "./components/Quote/Quotes";
 import Shopping from "./components/Shopping/Shopping";
+import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 
 // First project
 /*
@@ -32,8 +33,15 @@ function App() {
 }
 */
 
+// Fifth project
+/*
 function App() {
   return <Github />;
+}
+*/
+
+function App() {
+  return <VideoPlayer />;
 }
 
 export default App;
