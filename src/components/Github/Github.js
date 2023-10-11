@@ -3,6 +3,22 @@ import classes from "./Github.module.css";
 import { useState } from "react";
 import InputForm from "./InputForm";
 
+/* 
+  // Refer this code - This will search as the user types in but will wait for 500ms
+  const searchInput = useRef(null);
+
+useEffect(() => {
+  const debouncedSearch = () => {
+    // do something with the search input value
+  };
+
+  searchInput.current.addEventListener("input", debouncedSearch, {
+    debounce: 500, // delay the search by 500ms
+  });
+}, []);
+
+*/
+
 const Github = () => {
   const [items, setItems] = useState([]);
 
