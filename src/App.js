@@ -4,6 +4,7 @@ import Carousal from "./components/Carousal/Carousal";
 import Quotes from "./components/Quote/Quotes";
 import Shopping from "./components/Shopping/Shopping";
 import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
+import BmiCalc from "./components/BmiCalc/BmiCalc";
 
 // First project
 /*
@@ -40,8 +41,15 @@ function App() {
 }
 */
 
+// Sixth project
+/*
 function App() {
   return <VideoPlayer />;
+}
+*/
+
+function App() {
+  return <BmiCalc />;
 }
 
 export default App;
