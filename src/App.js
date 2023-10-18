@@ -5,6 +5,8 @@ import Quotes from "./components/Quote/Quotes";
 import Shopping from "./components/Shopping/Shopping";
 import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 import BmiCalc from "./components/BmiCalc/BmiCalc";
+import ThemeProvider from "./store/ThemeProvider";
+import ThemeChange from "./components/ThemeChange/ThemeChange";
 
 // First project
 /*
@@ -48,8 +50,19 @@ function App() {
 }
 */
 
+// Seventh project
+/*
 function App() {
   return <BmiCalc />;
+}
+*/
+
+function App() {
+  return (
+    <ThemeProvider>
+      <ThemeChange />
+    </ThemeProvider>
+  );
 }
 
 export default App;
