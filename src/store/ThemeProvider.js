@@ -13,10 +13,7 @@ const themes = {
 };
 
 const themeReducer = (state, action) => {
-  if (state === "light") {
-    return "dark";
-  }
-  return "light";
+  return state === "light" ? "dark" : "light";
 };
 
 const ThemeProvider = (props) => {

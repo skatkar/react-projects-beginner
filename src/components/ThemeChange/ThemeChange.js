@@ -9,7 +9,7 @@ const ThemeChange = () => {
       <h1>Project 8: Theme change with context</h1>
       <div className={classes.container}>
         <div className={classes.row}>
-          <h2>Theme</h2>
+          <span>{selectedTheme === "light" ? "Dark" : "Light"} Theme</span>
           <label class={classes.switch}>
             <input type="checkbox" onChange={toggleTheme} />
             <span className={`${classes.slider} ${classes.round}`}></span>
