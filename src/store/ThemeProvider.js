@@ -27,6 +27,7 @@ const ThemeProvider = (props) => {
   };
 
   const themeContext = {
+    caption: themeState === "light" ? "Dark" : "Light",
     selectedTheme: themeState,
     themes: themes,
     toggleTheme: changeTheme,
