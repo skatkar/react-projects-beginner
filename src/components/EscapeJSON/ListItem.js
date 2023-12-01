@@ -1,4 +1,3 @@
-import classes from "./ListItem.module.css";
 const ListItem = (props) => {
   const string = props.escapedString;
   return (
