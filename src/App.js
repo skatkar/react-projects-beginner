@@ -7,6 +7,7 @@ import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 import BmiCalc from "./components/BmiCalc/BmiCalc";
 import ThemeProvider from "./store/ThemeProvider";
 import ThemeChange from "./components/ThemeChange/ThemeChange";
+import EscapeJSON from "./components/EscapeJSON/EscapeJSON";
 
 // First project
 /*
@@ -57,6 +58,8 @@ function App() {
 }
 */
 
+// Context API - Theme change
+/*
 function App() {
   return (
     <ThemeProvider>
@@ -65,4 +68,9 @@ function App() {
   );
 }
 
+*/
+
+function App() {
+  return <EscapeJSON />;
+}
 export default App;
