@@ -1,12 +1,12 @@
 .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    width: 60%;
     margin: auto;
-    padding: 1rem;
 }
 
 
-
+@media screen and (min-width: 570px) {
+    .container {
+        flex-direction: row;
+    }
+}
